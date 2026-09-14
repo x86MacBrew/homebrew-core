@@ -18,9 +18,10 @@ build, test and release requirements.
 | Initial Intel target | Intel `x86_64` on macOS 15.7.7 |
 | Client line | `x86MacBrew/brew` branch `x86macbrew-intel-2027` |
 
-The stable x86MacBrew distribution tap currently publishes only
-`x86macbrew-doctor`. `oniguruma` and `jq` remain experimental formulas in the
-tap’s `candidates/jq-oniguruma` branch. They are not core-catalogue guarantees.
+The stable x86MacBrew distribution tap publishes `x86macbrew-doctor` plus the
+source-build-tier formulas `oniguruma` and `jq`. Those formulas are not bottles
+or core-catalogue guarantees. The active unshipped candidate is `git` on the
+tap’s `candidates/git` branch.
 
 ## Branch roles
 
